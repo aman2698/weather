@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  /* background-color: white; */
+  background-image: url('./assets/weat.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  overflow: hidden;
+}
+
+.container{
+  max-width: 600px;
+  margin: auto;
+  padding: 5px;
+  margin-top: 100px;
+}
