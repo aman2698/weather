@@ -30,9 +30,8 @@ function App() {
             console.log(result.state);
             navigator.geolocation.getCurrentPosition(debounceFn, error);
           } else if (result.state === "prompt") {
-            // navigator.geolocation.getCurrentPosition(success, error, options)
+            navigator.geolocation.getCurrentPosition(debounceFn, error, options)
           } else if (result.state === "denied") {
-            //If denied then you have to show instructions to enable location
             console.log('denied')
           }
           result.onchange = function () {

@@ -1,7 +1,6 @@
 {
   "name": "Aman sikarwar",
   "version": "0.1.0",
-  "homepage": "https://aman2698.github.io/weather",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
